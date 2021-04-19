@@ -1,0 +1,285 @@
+
+/*設定整體字型*/
+.container {
+	font-family: Helvetica;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; 
+	}
+}
+
+/*進度條*/
+.progress {
+	margin: 15px;
+}
+
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.about {
+	padding:100px 0;
+	background:linear-gradient(#ffffff,#99CCCC);
+}
+
+.about img {
+	/*幫圖片加陰影
+	box-shadow:2px 2px 4px gray;
+	*/
+}
+
+.skills {
+	padding:100px 0;
+	background:linear-gradient(#99CCCC,#FFCC99);
+}
+
+.service {
+	padding:100px 0;
+	background-color: #FFCC99; 
+}
+
+.portfolio {
+	padding:100px 0;
+	background:linear-gradient(#FFCC99,#99CCCC); 
+}
+
+.title {
+	font-size:20px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#ffffff;
+}
+
+.story {
+	/*margin: 10px 0;*/
+	padding: 0px;
+	font-size: 18px;
+}
+
+.story span {
+	font-style: italic;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+/*設定摺疊面板的顏色*/
+.story .card {
+	border-color: lightblue;
+	background-color: white;
+
+}
+
+.story .card-body {
+	background-color: white;
+}
+
+/*設定摺疊面板按鈕*/
+.buttonstyle {
+	color: black;
+	font-weight: bold;
+}
+
+
+.title_line {
+	margin-bottom: 50px;
+}
+
+.product {
+	background-color: #F0E5DE;
+	padding-bottom:70px;
+}
+.product .card {
+	background-color: #ffffff;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+.product img {
+	width:100%;
+	margin-bottom:20px;
+}
+
+.product_name {
+	padding: 10px;
+}
+
+
+.product img:hover {
+		opacity: 0.8;
+}
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(../img/bgpic.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#ffffff;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #99CCCC;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+
+
+
+/*test*/
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    /*設定背景顏色*/
+    background-color: #99CCCC;
+    background-repeat: no-repeat;
+}
+
+/*讓卡片有陰影.card {
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+*/
+
+.profile-pic {
+    width: 100px !important;
+    height: 100px;
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: #ffffff !important;
+    border: none;
+    padding: 5px 20px !important;
+    font: inherit;
+    font-size: 50px !important
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: #ffffff !important;
+    background-color: transparent !important
+}
+
+.owl-dots {
+    display: none
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+.item {
+    display: none
+}
+
+.next {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.prev {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.item.show {
+    display: block;
+    transition-duration: 0.4s
+}
+
+
+@media screen and (max-width: 999px) {
+
+    .next,
+    .prev {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    .item {
+        display: block !important
+    }
+}
+
+
+/*設定圖片不要跑版*/
+.img-fluid {
+	width: 100%;
+	height: auto;
+}
+
+/*設定進度條顏色*/
+.progress-color {
+	background-color: #99CCCC;
+}
+
+.btn:hover {
+	text-decoration: none;
+	color: black; 
+}
