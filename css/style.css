@@ -132,7 +132,7 @@
 }
 
 .contact .title {
-	color:#ffffff;
+	color:#000;
 }
 
 .contact .form {
@@ -167,7 +167,7 @@
 }
 
 input[type=submit] {
-  background-color: #99CCCC;
+  background-color: #FFCC99;
   color: white;
   cursor: pointer;
   width: 100px!important;
@@ -175,7 +175,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #8ABCB8;
+  background-color: #FFCC99;
 }
 
 
